@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-22T03:57:40Z" name="Suite" finished-at="2018-04-22T03:58:30Z" duration-ms="50367">
+    <groups>
+    </groups>
+    <test started-at="2018-04-22T03:57:40Z" name="Test" finished-at="2018-04-22T03:58:30Z" duration-ms="50367">
+      <class name="com.qa.base.IEmployee_Base">
+        <test-method is-config="true" signature="setUpFile()[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:57:38Z" name="setUpFile" finished-at="2018-04-22T03:57:40Z" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFile -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:57:40Z" name="setUp" finished-at="2018-04-22T03:58:19Z" duration-ms="38791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="CaptureScreen()[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:19Z" name="CaptureScreen" finished-at="2018-04-22T03:58:19Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreen -->
+        <test-method signature="launchUrl()[pri:1, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:19Z" name="launchUrl" finished-at="2018-04-22T03:58:28Z" duration-ms="9437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method is-config="true" signature="screenShots(org.testng.ITestResult)[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:28Z" name="screenShots" finished-at="2018-04-22T03:58:28Z" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchUrl status=SUCCESS method=IEmployee_Base.launchUrl()[pri:1, instance:com.qa.base.IEmployee_Base@74f280bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShots -->
+        <test-method signature="testLogin()[pri:2, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:28Z" name="testLogin" finished-at="2018-04-22T03:58:29Z" duration-ms="62" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.Login.IEmployee_Login.sendcropid(IEmployee_Login.java:26)
+at com.qa.Login.IEmployee_Login.BaseMethod(IEmployee_Login.java:55)
+at com.qa.base.IEmployee_Base.testLogin(IEmployee_Base.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="screenShots(org.testng.ITestResult)[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:29Z" name="screenShots" finished-at="2018-04-22T03:58:30Z" duration-ms="1630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=IEmployee_Base.testLogin()[pri:2, instance:com.qa.base.IEmployee_Base@74f280bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShots -->
+        <test-method signature="testLogout()[pri:3, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:30Z" name="testLogout" finished-at="2018-04-22T03:58:30Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="screenShots(org.testng.ITestResult)[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:30Z" name="screenShots" finished-at="2018-04-22T03:58:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=IEmployee_Base.testLogout()[pri:3, instance:com.qa.base.IEmployee_Base@74f280bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShots -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.base.IEmployee_Base@74f280bd]" started-at="2018-04-22T03:58:30Z" name="tearDown" finished-at="2018-04-22T03:58:31Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.base.IEmployee_Base -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
